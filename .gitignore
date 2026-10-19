@@ -1,0 +1,17 @@
+# Ignora carpetas de compilación en cualquier nivel del proyecto
+**/bin/
+**/obj/
+
+# Ignora archivos de configuración local de Visual Studio/VS Code
+.vs/
+*.suo
+*.user
+
+# Ignora paquetes locales y caché
+**/packages/
+**/.vscode/
+
+# Ignora archivos de usuario y bases de datos locales
+*.dbmdl
+*.db
+*.log
